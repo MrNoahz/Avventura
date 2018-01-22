@@ -21,8 +21,8 @@ public:
 
 /// Esplora boards have hard-wired connections with
 /// the Arduino LCD if mounted on the onboard connector.
-#if ARDUINO_AVR_ESPLORA // are we building for Esplora?
+// #if ARDUINO_AVR_ESPLORA // are we building for Esplora?
 extern TFT EsploraTFT;
-#endif
+// #endif
 
 #endif // _ARDUINO_TFT_H

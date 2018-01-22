@@ -1,8 +1,8 @@
 #include "TFT.h"
 
-#if ARDUINO_AVR_ESPLORA
+// #if ARDUINO_AVR_ESPLORA
 TFT EsploraTFT(7, 0, 1);
-#endif
+// #endif
 
 TFT::TFT(uint8_t CS, uint8_t RS, uint8_t RST) 
   : Adafruit_ST7735(CS, RS, RST)
