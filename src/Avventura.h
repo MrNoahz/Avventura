@@ -1,7 +1,7 @@
-// //#include <TFT.h>
-// #include "core/TFT.h"
-// #include <SPI.h>
 // #include <Esplora.h>
+// #include <TFT.h>
+// #include <SPI.h>
+// #include "core/TFT.h"
 
 #ifndef Avventura_h
 #define Avventura_h
@@ -10,6 +10,7 @@
 class Avventura {
 public:
 	Avventura();
+	void begin();
 };
 
 #endif
